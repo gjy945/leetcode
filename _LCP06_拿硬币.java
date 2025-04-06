@@ -24,3 +24,13 @@ class _LCP06_拿硬币 {
         return count;
     }
 }
+
+class _LCP06_拿硬币 {
+    public int minCount(int[] coins) {
+        int count = 0;
+        for (int coin : coins) {
+            count += (coin + 1) / 2;
+        }
+        return count;
+    }
+}
